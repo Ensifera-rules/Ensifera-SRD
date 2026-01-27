@@ -46,15 +46,20 @@ Retainers take a half-share of loot.
 ### Carrying capacity
 A character can carry up to 1 item per hand + 8 loads while retaining good capacity for action in the perils of adventure.
 A PC who is carrying more is Overloaded. 
+* You have in quick access what is in your hand, and 1 load more at your belt
+* You have 4 loads ready in one action
+* Everything else is Dead Weight. 1 Dead Weight for the first load, and every 2 loads after that. If you should have more than 3 Dead Weight, you are Overloaded. You cannot have more than 6 Dead Weight. Dead Weight is substracted from your Capture save. 
+
 ### Overload
 * You cannot run or be stealthy;
 * you are slow in exploration, travel at -1 speed, and move at half speed in combat;
-* actions are harder;
+* some actions are harder or outright impossible;
 * enemies gain +1 attack against you.
 
 ### Item load
-* 1 typical object is 1 load. This represents its size, weight and hindrance. 50 silver coins make 1 load.
-* A Bulky item, larger or heavier is 2 loads. Two-handed weapons, shields, armors. 
+* 1 typical object is 1 load. This represents its size, weight and hindrance. 100 coins make 1 load.
+* A Bulky item, larger or heavier is 2 loads. Two-handed weapons, shields...
+* Armor takes 2 loads per rank and must be placed in Dead Weight.
 * An Unwieldy item is 3 or more loads. You must carry it with both hands. A body is 10 loads.
 * Items that can fit in the palm are kept in the pockets. 
 * Normal worn clothing and small jewelry aren’t load. Luxurius or winter clothes may be.
@@ -117,7 +122,9 @@ Broken items you carried home can be repaired: it costs as much as one price cat
 ## Items
 <details markdown="1">
 <summary><b>Basic: 1 silver</b></summary>
-  
+Basic
+
+
 |Item|	Load|
 |----|------|
 |Tinderbox|	Pocket|
@@ -138,6 +145,7 @@ Broken items you carried home can be repaired: it costs as much as one price cat
 
 <details markdown="1">
 <summary><b>Common: 5 silver</b></summary>
+Common
 
 
 |Item|	Load|
@@ -159,6 +167,7 @@ Broken items you carried home can be repaired: it costs as much as one price cat
 
 <details markdown="1">
 <summary><b>Precious: 20 silver</b></summary>
+Precious
 
 
 |Item	|Load|
@@ -189,17 +198,19 @@ Weapons
 
 |Item|	Price|	Load|	Traits|
 |-----|------|------|---------|
-|Dagger	|5	|1	|+1 attack against a prone target. Instant draw even when Worn instead of Readied. Throwable.|
-|Spear	|5	|2	|+1 melee attack if used with both hands. Throwable. Can attack from one rank behind an ally but only 1 attack per round. |
-|Battle axe	|5	|1	|Melee Combat +1. Throwable.|
+|Dagger	|5	|1	| Instant draw as long as it is not packed in Dead Weight.
+|Spear	|5	|2	| Can attack from one rank behind an ally but max 1 attack per round. Grants simultaneous attack resolution against a frontal charge. +1 melee attack if used with both hands.  |
+|Battle axe	|5	|1	| successful attacks with a result of 1-2 deal +1 damage. |
 |Long axe ‡	|10	|2	|Melee Combat +1 and +1 melee attack.|
 |Sword	|10	|1	|First Strike.|
 |Longsword ‡	|20	|2	|First Strike and +1 melee attack. |
+|Halberd ‡	|10	|2	| Enemy armor is always treated as 2. |
+|Francisque	|5 |1	| +1 ATK when thrown. |
 |Sling 	|1	|P	|Can launch grenades and potions. |
-|Javelin	|5	|1	|If thrown, don’t allow shields to double armor against ranged.|
+|Javelin	|5	|1	| Use Melee hit chances.|
 |Shortbow ‡|	5	|1	|Can shoot in confined spaces and/or from cover.|
 |Longbow ‡	|10	|2	|+1 ranged attack. |
-|Crossbow ‡	|40	|2	|Target armor counts as 0 for the shot. +1 Combat per round spent aiming. Reloading takes a whole round. Can shoot in confined spaces and/or from cover.|
+|Crossbow ‡	|40	|2	| Use Melee hit chances. +1 hit chance per round spent aiming. Reloading takes a whole round. Can shoot in confined spaces and/or from cover.|
 
 Two-handed (‡): attacking requires two hands.
 First Strike: if you have priority, foes you kill are slain before they can strike back.
@@ -219,13 +230,15 @@ Armor
 Each rank of armor stacks with the others for total Armor value, price and load.
 A full armor set without shield is 6 load, Armor 3, for a total of 320 silver.
 
-Helmet
-+1 in your Death and Blast saves.
-Shield
+#### Helmet
++2 in your Death Save against injuries.
+
+#### Shield
 Wielding a shield, you have +1 Armor and:
-Cover. Your total Armor counts double against frontal ranged attacks.
-Sundering. When attacks are declared, but before they are resolved, you can sacrifice your shield. This cancels 1 damage if you’re hit. You sacrifice your shield even if no attack hits you (you over-block strikes that aren’t as threatening as you thought).
-Except during a duel, only player characters can sunder their shields.
-Loot. Shields from defeated fighters have a 2-in-6 chance of not being broken. 
+* Cover. Your total Armor counts double against frontal ranged attacks.
+* Sundering. When attacks are declared, but before they are resolved, you can sacrifice your shield. This cancels 1 damage if you’re hit. You sacrifice your shield even if no attack hits you (you over-block strikes that aren’t as threatening as you thought).  
+Except during a duel, only player characters can sunder their shields.  
+
+Loot. Shields from defeated fighters have a 2-in-6 chance of not being broken.   
 </details>
 
