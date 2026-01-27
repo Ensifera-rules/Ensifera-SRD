@@ -4,8 +4,6 @@ title: Base Rules
 permalink: /base-rules/
 ---
 
-test Text
-
 ##### _Last updated January 2026._
 
 <details markdown="1">
@@ -33,12 +31,10 @@ There are three Attributes:
 
 A character starts at Level 1 with 2 HP, 1 attack, and 0 Mana.
 
-There are three starting Traits:
-* Berserker. Invoke holy furor to gain +1 ATK per round until end of fight. You automatically pass death saves from injuries while in this state (mutilations still apply). You can’t do something else than trying to kill all enemies until it’s done. Save against Capture after 10 minutes or lose this ability for the day.
-* Silent. While stealthy, you don't risk noise -even when trying to kill someone, walking on dry leaves or similar activity.
-* Malefica(r). Each time you gain a level, gain 1 random spell. You start the game with 1 HP instead of 2, but you also have 1 Mana and two random spells.
-
-Choose one.
+There are three starting Traits. Choose one:
+* **Berserker**. Invoke holy furor to gain +1 ATK per round until end of fight. You automatically pass death saves from injuries while in this state (mutilations still apply). You can’t do something else than trying to kill all enemies until it’s done. Save against Capture after 10 minutes or lose this ability for the day.
+* **Silent**. While stealthy, you don't risk noise -even when trying to kill someone, walking on dry leaves or similar activity.
+* **Malefica(r)**. Each time you gain a level, gain 1 random spell. You start the game with 1 HP instead of 2, but you also have 1 Mana and two random spells.
 </details>
 
 ---
@@ -60,10 +56,9 @@ To improve your Characteristics, see Downtime.
 ---
 
 <details markdown="1">
-<summary><b># Resolution</b></summary>
-
-### Rounding
+<summary><b>Resolution</b></summary>
 Always round down unless specified otherwise.
+
 ### X-in-6 chance
 Roll a d6, if you roll the number or lower it happens. 
 If the Referee is unsure and has no random table for it, they decide how many chances out of 6 there are that the thing will happen.  2-in-6 is a good chance for most things. 
