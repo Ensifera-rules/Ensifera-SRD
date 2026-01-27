@@ -10,6 +10,8 @@ test Text
 <details markdown="1">
 <summary><b>How to Play</b></summary>
 test
+  test
+  test
 </details>
 
 ---
