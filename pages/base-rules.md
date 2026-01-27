@@ -60,7 +60,7 @@ To improve your Characteristics, see Downtime.
 ---
 
 <details markdown="1">
-<summary><b>Resolution</b></summary>
+<summary><b># Resolution</b></summary>
 
 ### Rounding
 Always round down unless specified otherwise.
@@ -81,24 +81,13 @@ Base 6-in-12, modified by the difference of skill.
 ### Secret & just-in-time roll
 If the knowledge of the outcome impacts the situation, the Referee might secretly roll for a character, or delay the roll until the last moment. 
 ## Saves
-Against specific threats, the Referee might call for you to make a save.
-Each save rates the chances of success on 1d12 to avoid the threat.
+Against specific threats, the Referee might call for you to make a save.  
+Each save rates the chances of success on 1d12 to avoid the threat.  
 There are two types of threat.
 * Those that inflict damage: Roll once for each damage, each success prevents one damage.
 * Those that have a binary effect, suffered entirely on a failure or not at all on a success: Roll once.
 When in doubt between two saves, use the one most advantageous to the character.
 
-
-
-</details>
-
----
-
-<details markdown="1">
-<summary><b>How to Play</b></summary>
-test
-  test
-  test
 </details>
 
 ---
