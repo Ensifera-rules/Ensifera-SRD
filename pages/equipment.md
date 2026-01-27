@@ -118,6 +118,7 @@ Broken items you carried home can be repaired: it costs as much as one price cat
 <details markdown="1">
 <summary><b>Basic: 1 silver</b></summary>
 
+
 |Item|	Load|
 |----|------|
 |Tinderbox|	Pocket|
@@ -139,7 +140,7 @@ Broken items you carried home can be repaired: it costs as much as one price cat
 <details markdown="1">
 <summary><b>Common: 5 silver</b></summary>
 
-Common: 5 silver
+
 |Item|	Load|
 |----|------|
 |Caltrops	|1|
@@ -160,7 +161,7 @@ Common: 5 silver
 <details markdown="1">
 <summary><b>Precious: 20 silver</b></summary>
 
-Precious: 20 silver
+
 |Item	|Load|
 |----|------|
 |Oil (vegetable)	|1|
@@ -185,6 +186,8 @@ Pitons: short metal stakes with a loop on one side for passing a rope through. Y
 <summary><b>Weapons & Armor</b></summary>
 
 Weapons
+
+
 |Item|	Price|	Load|	Traits|
 |-----|------|------|---------|
 |Dagger	|5	|1	|+1 attack against a prone target. Instant draw even when Worn instead of Readied. Throwable.|
@@ -202,7 +205,10 @@ Weapons
 Two-handed (‡): attacking requires two hands.
 First Strike: if you have priority, foes you kill are slain before they can strike back.
 Silver weapon: Four times the price. Breaks after a single depletion or a roll of 12 if used against foes not vulnerable to silver. Can kill ghosts, demons and the like.
+
 Armor
+
+
 |Type	|Armor|	Price	|Load|	Swim|
 |-------|-----|---------|-----|------|
 |Light|	1	|20	|2	|Yes|
