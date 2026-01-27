@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Base Rules
+permalink: /base-rules/
 ---
 
 test Text
