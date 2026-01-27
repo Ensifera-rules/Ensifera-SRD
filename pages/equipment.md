@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hirelings
+title: Equipment
 permalink: /equipment/
 ---
 
@@ -51,22 +51,26 @@ A PC who is carrying more is Overloaded.
 * you are slow in exploration, travel at -1 speed, and move at half speed in combat;
 * actions are harder;
 * enemies gain +1 attack against you.
+
 ### Item load
 * 1 typical object is 1 load. This represents its size, weight and hindrance. 50 silver coins make 1 load.
 * A Bulky item, larger or heavier is 2 loads. Two-handed weapons, shields, armors. 
 * An Unwieldy item is 3 or more loads. You must carry it with both hands. A body is 10 loads.
 * Items that can fit in the palm are kept in the pockets. 
 * Normal worn clothing and small jewelry aren’t load. Luxurius or winter clothes may be.
+
 ### Readied, Worn or Packed
 2 loads + the items in your hands are Readied, you can use them on the spot. Other items in your carrying capacity are Worn.
 Items in excess of your carrying capacity  are Packed in backpacks and bags. Most items on mounts and porters also are.
 In tense situations, it costs 1 action to search and ready a Worn item, and a whole round to search and ready a Packed item.
+
 ## Free space
 Unless a character explicitly loses them, we assume that they always carry:
 Pockets and up to 2 pocket-sized items (any more takes 1 load),
 A waterskin, and enough water for the day as long as there is drinking water in the surrounding area,
 A small purse that can hold up to 30 coins (any more takes 1 load per 50).
 They are not counted as load.
+
 ## Depletion
 Each significant use marks an X in the resource. This is called depletion.  
 A resource has three possible states: sufficient, almost exhausted (X), exhausted (XX). An item is intact, damaged (X) or destroyed (XX).  
@@ -76,9 +80,10 @@ One-use resources are exhausted instantly (e.g. potions).
 
 ## Sacks & Transport
 1 sack is 10 loads of items. 
+
 | Mounts & Wagons |	Price	| Sacks capacity |
-| ----------------|---------|-------|
-| Human porter	|	| 1|
+| ----------------|---------|----------------|
+| Human porter	|	| 1 |
 | Mule, ox	| 20	| 2 |
 | Work horse |	40	| 2 |
 | Destrier or palfrey	| 100 |	2 |
@@ -112,6 +117,7 @@ Broken items you carried home can be repaired: it costs as much as one price cat
 # Items
 <details markdown="1">
 <summary><b>Basic: 1 silver</b></summary>
+
 |Item|	Load|
 |----|------|
 |Tinderbox|	Pocket|
@@ -132,6 +138,7 @@ Broken items you carried home can be repaired: it costs as much as one price cat
 
 <details markdown="1">
 <summary><b>Common: 5 silver</b></summary>
+
 Common: 5 silver
 |Item|	Load|
 |----|------|
@@ -152,6 +159,7 @@ Common: 5 silver
 
 <details markdown="1">
 <summary><b>Precious: 20 silver</b></summary>
+
 Precious: 20 silver
 |Item	|Load|
 |----|------|
