@@ -114,11 +114,10 @@ Purchase and resale prices may vary according to location and circumstances.
 Depleted but not broken items are automatically repaired for free in Downtime as part of the upkeep cost.
 Broken items you carried home can be repaired: it costs as much as one price category lower than the original price of the item.
 
-# Items
+## Items
 <details markdown="1">
 <summary><b>Basic: 1 silver</b></summary>
-
-
+  
 |Item|	Load|
 |----|------|
 |Tinderbox|	Pocket|
