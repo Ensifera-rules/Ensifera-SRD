@@ -32,18 +32,20 @@ Each phase lists the possible actions within it.
 
 ## Actions
 You have two actions per round, but can act only once per phase.
+
 You cannot trade a phase-specific action for an action specific to another phase, e.g. Melee for another Movement.
+
 However, you can do a miscellaneous action instead of an Opening or Melee action.
-Miscellaneous actions
-Ready a worn item, take something, use a readied item (e.g. potion)
-Protect an adjacent ally: any attacks they suffer this round are redirected to you
-First aid
-Test your Presence to prevent allies from making a Morale check this round
-Other similar actions.
-Forgo all other actions to:
-Reload a crossbow
-Retreat from melee
-Search and ready a packed item
+#### Miscellaneous actions
+* Ready a worn item, take something, use a readied item (e.g. potion)
+* Protect an adjacent ally: any attacks they suffer this round are redirected to you
+* First aid
+* Test your Presence to prevent allies from making a Morale check this round
+* Other similar actions.
+#### Forgo all other actions to:
+* Reload a crossbow
+* Retreat from melee
+* Search and ready a packed item
 
 ### Spells
 To cast spells, you must be out of melee.  
@@ -123,13 +125,21 @@ Enemies have +2 Combat against you. Getting up costs half your speed. Adjacent o
 You can’t make ranged attacks once you are in melee range.  
 Your ammo must be Readied.  
 Resolve as for Melee, but if you have multiple attacks, you must allocate all your attacks to the same target.  
-Target with shield  
+#### Target with shield  
 Unless you use a javelin or crossbow, or shoot them from a good angle, you deduct twice the Armor of your target from your Combat stat.  
-Target engaged in melee  
+#### Target engaged in melee  
 The closest ally is hit instead if you get a 10+, they take 1 damage.   
 * Ranged attacks against incoming charge: 3-in-6 chance for the side to shoot before contact, otherwise the charge connects before the volley.  
 * You cannot chain ranged and melee attacks unless you have a throwing weapon in one hand and a melee weapon in the other.  
 * If you have a light throwing weapon, you can throw it while charging (francisque, javelin).   
+
+### Criticals
+Crits apply both to PCs and NPCs. Critical hits do not affect creatures with Supernatural HP.
+A result of 1 on an attack die is a Critical. It deals 1 damage as normal but add also 1 Wound in the inventory.
+Roll 1d10+10 on the Mutilation table: the Wound is a temporary version of the result. The targeted area is incapacitated until the wound is treated and the wounded rests for a full day. 
+You can sacrifice your helmet to cancel a Critical.
+Push
+Once per series of attacks, you can choose to reroll one failed die. If the new result is a success, you deplete your weapon. If the new result is a failure, you deplete twice your weapon. If the weapon should break, it does after the attacks are resolved.
 
 ### Grappling
 You can attempt a gambit instead of any other action, but only once per round.  
@@ -166,6 +176,7 @@ Common morale triggers include:
 * Being ambushed
 * Horrific situation or enemy
 * Retreating or surrendering allies
+
 #### Morale check
 Roll 1d12 by group. A result equal to or less than your chances is a success. The chances of success depend on the combatants’ military experience. 
 * Weak: 5. Untrained troops.
@@ -182,25 +193,30 @@ A fight lasts at least 10 minutes (1 exploration turn), the time it takes to fig
 
 # Health
 ## Hit Points (HP)
-Anything that could injure the character inflicts damage. Each damage removes 1 HP.
-A character’s HP represent their ability to avoid serious injury. The damage they suffer is cosmetic until they lose all their HP, at which point their life is in danger.
-Blows, cuts, bruises, close calls that damage clothing, an arrow that scratches the arm or  is stopped by the armor, etc.
-Save against death
+A damage is something that could kill someone. Each damage removes 1 HP. If you have more than 1 HP, you can survive things that would kill a lesser being. Damage is mostly cosmetic for a character until they lose all their HP, at which point their life is in danger.
+#### Save against death
 If a character’s HP is reduced to 0, they must make a save against death: if they fail, they die, otherwise they survive by rolling 1d20 on the Mutilation table and mark 1 Wound.
-If alive, the character is knocked to the ground. They can continue to act normally thanks to the adrenaline and get up again on their next turn, but they are in critical condition.
-Critical condition
+
+If alive, the character can continue to act normally thanks to the adrenaline, but they are in critical condition.
+
+#### Critical condition
 The character dies at the end of 2 rounds following the one in which they entered the critical condition, unless stabilised. If they suffer further damage while at 0 HP, they die.
-First aid
+#### First aid
 Finesse test (Very hard if you try on yourself). Success: patient stabilised. Failure: a turn spent for nothing. Multiple attempts possible, but only 1 per round.
-Stabilized
+#### Stabilized
 The character is no longer dying, but still at 0 HP. If they suffer further damage while at 0 HP, they die.
-Death
+#### Death
 When your character dies, create a new one or take control of a hireling. They quickly join the party.
+#### Nemesis
+A creature that kills a PC immediately gains +1 Might (+1 HP, +1 attack).
+
 
 ## Wounds
 Each Wound is 1 load in the inventory and reduces your maximum HP by 1 until it is healed (1 week of rest).
-Before healing, a wound must be treated to prevent infection, using bandages or medicinal items. Untreated wounds fester quickly. 
-Mutilation table
+
+Before healing, a wound must be treated to prevent infection. Untreated wounds fester quickly. 
+
+#### Mutilation table
 1d20	Effect
 11-	You only lose skin and blood, gain a terrible scar (it still helps you attract more retainers)
 12	Lose an ear
@@ -228,24 +244,13 @@ Main du bouclier
 Jambe : ne peut marcher sans aide, jusqu'à guérison. Si mutilation, ne pourra plus jamais courir.
 et plus. Enlever 10 pour connaître l'emplacement ; compte comme un crit plutôt qu'une mutilation.
 
+Mutilation : effet permanent mais n'encombre plus l'inventaire après guérison. 
 
 ### Recovery
 1 HP per full day of rest
 All HP after a week of downtime (if not restricted by a Wound)
 1 Wound per week of downtime
 
-
-### Criticals
-Crits apply both to PCs and NPCs. Critical hits do not affect creatures with Supernatural HP.
-A result of 1 on an attack die is a Critical. It deals 1 damage as normal but add also 1 Wound in the inventory.
-Roll 1d10+10 on the Mutilation table: the Wound is a temporary version of the result. The targeted area is incapacitated until the wound is treated and the wounded rests for a full day. 
-You can sacrifice your helmet to cancel a Critical.
-Push
-Once per series of attacks, you can choose to reroll one failed die. If the new result is a success, you deplete your weapon. If the new result is a failure, you deplete twice your weapon. If the weapon should break, it does after the attacks are resolved.
-
-
-Nemesis
-A creature that kills a PC immediately gains +1 Might (+1 HP, +1 attack, and may improves Combat stat).
 
 # Battles
 
@@ -309,8 +314,6 @@ Longbow: 36
 If you reach a critical mass proportional to the target, double the effective range of ranged weapons.
 
 ### Movement
-Grids tend to restrict creativity and you can allow free movement with a ruler.
-
 Movement mostly takes place at the Unit scale, but you may scale down to Ranks or figures according to circumstances. 
 
 Cycling between ranks: swapping places with a figure from another rank takes 1 movement action for each (coordination).
