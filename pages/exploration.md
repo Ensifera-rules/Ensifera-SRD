@@ -52,6 +52,9 @@ Locked doors can be opened with the appropriate key or picked with a lockpick an
 ### Searching
 Searching a room takes 1 turn of exploration (more for large rooms). This allows characters to find things that are hidden but easily accessible (a key in a drawer), and gives them 2-in-6 chance per turn of searching to get a clue to a secret (such as a loose stone in the wall hiding a secret door).
 
+The group will need to spend 1d6 turns searching to find the trap/secret door, minus 1 per character searching.
+D10, autant de chances par tour que de personnes en train de chercher. Un 10 est toujours un échec. Les persos en train de chercher ne font rien d'autre et sont vulnérables. 
+
 ### Ignite...
 Vegetable oil (oil lamp)
 It has a high ignition point, very hard.

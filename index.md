@@ -2,6 +2,11 @@
 layout: default
 ---
 
+
+
+##### _Last updated January 2026._
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).

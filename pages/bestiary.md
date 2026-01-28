@@ -1,3 +1,10 @@
+---
+layout: page
+title: Bestiary
+permalink: /bestiary/
+---
+
+
 Moral
 Base 5/7/9 selon entraînement
 Le groupe qui a le plus à craindre subit un malus de 2 au moral. Noter score de terreur quelque part ?
