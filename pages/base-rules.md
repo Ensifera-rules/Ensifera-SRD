@@ -80,13 +80,15 @@ If discussion does not offer an obvious resolution, you may roll a d12. You must
 * If it is at least 16, you succeed on 6 or less.
 * If you have the relevant skill, add 2 to your chances of success.
 
-Easy or extreme actions pass or fail automatically. Advantages either change the stakes in your favor or grant you automatic success.
+Easy or extreme actions pass or fail automatically. Advantages either change the stakes in your favor or grant you automatic success.  
+If something is Very Hard, halve you success chance. 
+
 ### Stakes
 The players are free to discuss and plan any course of action, with the Referee clarifying feasibility and likely consequences of failure. The stakes determine the difficulty, whether or not you can complete the action on a failure, the severity of the cost and what you can gain out of a success.
 ### Group action
 When everyone joins the same action and it needs a test, everyone rolls. If there is more success than failures, everyone succeeds. Otherwise, everyone fails. All participants are subject to the stakes.
 ### Opposed action
-Base 6-in-12, modified by the difference of skill.
+Succeed on 3-in-6 if you are roughly equals. Slide up or down otherwise. 
 ### Secret & just-in-time roll
 If the knowledge of the outcome impacts the situation, the Referee might secretly roll for a character, or delay the roll until the last moment. 
 ## Saves

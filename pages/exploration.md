@@ -40,13 +40,15 @@ As long as the following conditions are met, you can move around undetected with
 * You are not overloaded or wearing heavy armor (light and medium are OK).
 * You stay in "stealth areas" (tall grass, behind objects, passages where you can’t be seen easily, etc.).
 
-Make an Agility test to move stealthily in an exposed area, but only if it would be possible to pass undetected (you can’t walk in front of guards without being seen). Also test to stay stealthy while risking noise (walking on dry leaves, jumping down, killing someone, etc). If you have to both cross an exposed area and risk noise, you are spotted.  
+Make an Agility test to move stealthily in an exposed area, but only if it would be possible to pass undetected (you can’t walk in front of guards without being seen). Also test to stay stealthy while risking noise (walking on dry leaves, jumping down, killing someone, etc). If you have to both cross an exposed area and risk noise, the test is Very Hard.  
+
 In the event of an alert, you can’t move in the open or risk noise without being spotted (either seen or heard), and you have to make an Agility test to move unseen even in stealth areas.  
 If you don’t move, you can hide.
 #### Hiding
 If you’re well hidden, a creature must actively Search you to find you, as they would for a trap or secret door. 
 #### Stealth deathblow
 If you manage to get close enough a target while they are unaware, and you can ensure a killing blow (mitigate armor, size, etc), the victim is slain instantly. Otherwise, you automatically deal 1 damage for each of your attacks (special resistances still apply).  
+
 Attacking an alert target while you are unseen is a normal attack with Surprise rather than a deathblow.
 
 ### Light
@@ -54,6 +56,7 @@ A single source of light is sufficient to see the coarse features of a typical r
 When players extinguish a source of light, it depletes it.
 * A torch lasts 3 turns and lights well. It does not goes out easily, even in movement or if it is dropped.
 * A lantern with a candle lasts 6 turns and lights dimly. It goes out easily, especially with quick movement or if it is dropped (4-in-6 chance).
+
 Underworld denizens are assumed to see well in the dark. Light would alert them, you can only surprise them by coming through a door.
 
 ### Doors
@@ -80,19 +83,19 @@ To break an illusion, you must act with conviction.
 
 ## Hazards
 
-
 ### Climbing
-You cant’ climb overloaded. 
-Without plenty of easy handholds or a rope attached to the top, climbing is hard. A success allow you to climb one story. A failure counts as no progress for a turn. Two failures in a row result in a fall halfway to the height that you would have reached on a  success.
+You cant’ climb overloaded.  
+Without plenty of easy handholds or a rope attached to the top, climbing is hard. A success allow you to climb one story. A failure counts as no progress for a turn. Two failures in a row result in a fall halfway to the height that you would have reached on a  success.  
 1 Turn...
-Placing an anchor point with pitons
-Studying a route per 10 meters to find out which routes are passable and what the potential dangers are. One climber can rig a route so no-one else has to study it. 
-Climbing 1 story or abseiling 3.
+* Placing an anchor point with pitons
+* Studying a route per 10 meters to find out which routes are passable and what the potential dangers are. One climber can rig a route so no-one else has to study it. 
+* Climbing 1 story or abseiling 3.
 
 ### Jumping
-Average distances an adventurer can jump. Reduce by half if standing or carrying more than 4 loads (if both, halve then halve again). Test Agility to reach up to double the distance.
-Running long jump: 4 meters.
-Running vertical jump: 60 cm.
+Average distances an adventurer can jump.  
+Reduce by half if standing or carrying Dead Weight (if both, halve then halve again). Test Agility to reach up to double the distance.
+* Running long jump: 4 meters.
+* Running vertical jump: 60 cm.
 
 ### Falling
 * 2 meters or less: no damage.
@@ -176,12 +179,13 @@ Each creature has its own Disposition which affects the way they approach the si
 Substract the Capture stat of the pursuers to the Capture save of the evaders (for NPC, by default 6 minus worn armor). If the value is positive, it is the chance in 6 to escape for the fleeing party, modified by:
 * +1 for dropping something of interest for pursuers (food, treasure...), if they care
 * +1 for each obstacle used favoring the evaders (corners, traps, oil, caltrops, off-road trails...)
-* If you fail, you are caught and the enemy can perform a round of action against you as it it had surprise. You may flee again after if possible.
+
+If you fail, you are caught and the enemy can perform a round of action against you as if it had surprise. You may flee again after if possible.
 
 If the value is negative, escape is impossible.  
 Fast monsters (bears, giant spiders...) add half their Might to their Capture save. 
 
-The chance in 6 to escape is aIso the number of rooms the evaders can pass through before being caught on a failure, or the number of rooms they put between them and pursuers on a success.  
-Fleeing is done at Fast speed as for exploration movement.  
-If your pursuer doesn’t know where you are, it will search at reandom for a few rooms. 
+* The chance in 6 to escape is aIso the number of rooms the evaders can pass through before being caught on a failure, or the number of rooms they put between them and pursuers on a success.  
+* Fleeing is done at Fast speed as for exploration movement.  
+* If your pursuer doesn’t know where you are, it will search at reandom for a few rooms. 
 
