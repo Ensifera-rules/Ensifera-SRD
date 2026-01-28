@@ -6,7 +6,7 @@ permalink: /exploration/
 
 # Exploration
 
-### Time and space
+### Time, space and movement
 An exploration turn lasts around 10 minutes. Most actions take 1 turn, for example:
 * Searching a room or a few corpses
 * Crossing a room or long hallway for the first time with extreme caution, in fickle light, while mapping
@@ -21,7 +21,7 @@ If you are Slowed (overload, carrying someone in critical condition...), you tak
 
 **Cautious**  
 It is assumed that the characters:
-* Look all around them (floor, ceiling, walls)
+* Look all around them (floor, ceiling, walls) as best as they can
 * Are watchful of the presence of traps (they notice clues to it if there is any, e.g. small holes in the walls -for gas exhaust)
 * Are alert to noises, smells and other sensory markers
 * Do not touch anything that seems abnormal
@@ -30,23 +30,24 @@ It is assumed that the characters:
 The Referee describes any anomalies, peculiarities or obvious dangers. Once a feature has been described, the way the players interact with it may or may not put them in danger.
 
 **Fast**  
-The group makes noise and is unable to spot hidden dangers and small clues. It has no chance to surprise.  
+The group makes noise and is unable to spot details and dangers even merely hidden. It has no chance to surprise and is surprised on a 4-in-6 chance. 
 
 ### Stealth
 Global stealth is abstracted by the chance to surprise (see Encounters). If you gain Surprise or you are already aware of creatures who are not aware of you...
 #### Moving silently
 As long as the following conditions are met, you can move around undetected without a test.
-They are unaware of your presence (you are undetected and there is no alert).
-You are not overloaded or wearing heavy armor (light and medium are OK).
-You stay in stealth areas (tall grass, behind objects, passages where you can’t be seen easily, etc.).
-Make an Agility test to move stealthily in an exposed area, but only if it would be possible to pass undetected (you can’t walk in front of guards without being seen). Also test to stay stealthy while risking noise (walking on dry leaves, jumping down, killing someone, etc). If you have to both cross an exposed area and risk noise, the test is Very Hard.
-In the event of an alert, you can’t move in the open or risk noise without being automatically spotted (either seen or heard), and you have to make an Agility test to move unseen even in stealth areas.
+* They are unaware of your presence (you are undetected and there is no alert).
+* You are not overloaded or wearing heavy armor (light and medium are OK).
+* You stay in "stealth areas" (tall grass, behind objects, passages where you can’t be seen easily, etc.).
+
+Make an Agility test to move stealthily in an exposed area, but only if it would be possible to pass undetected (you can’t walk in front of guards without being seen). Also test to stay stealthy while risking noise (walking on dry leaves, jumping down, killing someone, etc). If you have to both cross an exposed area and risk noise, you are spotted.  
+In the event of an alert, you can’t move in the open or risk noise without being spotted (either seen or heard), and you have to make an Agility test to move unseen even in stealth areas.  
 If you don’t move, you can hide.
 #### Hiding
-If you’re well hidden, a creature must actively Search you to find you (see Perception). 
-Stealth deathblow
-An unaware target can be killed or wounded easily (see Combat, Vanquish). 
-Attacking an alert target while you are unseen  is a normal attack with Surprise rather than a deathblow.
+If you’re well hidden, a creature must actively Search you to find you, as they would for a trap or secret door. 
+#### Stealth deathblow
+If you manage to get close enough a target while they are unaware, and you can ensure a killing blow (mitigate armor, size, etc), the victim is slain instantly. Otherwise, you automatically deal 1 damage for each of your attacks (special resistances still apply).  
+Attacking an alert target while you are unseen is a normal attack with Surprise rather than a deathblow.
 
 ### Light
 A single source of light is sufficient to see the coarse features of a typical room, but the details require closer inspection. Each inspection requires a separate light source to be carried out in parallel.
@@ -98,12 +99,6 @@ Shuffle all cards when the group transition from wilderness to dungeon or vice v
 
 ## Hazards
 
-### Water
-* Drowning: character must save against Capture every minute, and drown in case of failure.
-* Fall: under 20 meters OK. Up to 30 meters, lose 1 HP. Beyond, save against Death. The depth of the water must be at least equal to half the height of the fall to not crush yourself at the bottom. 
-
-
-
 
 ### Climbing
 You cant’ climb overloaded. 
@@ -119,32 +114,15 @@ Running long jump: 4 meters.
 Running vertical jump: 60 cm.
 
 ### Falling
-2 meters or less: no damage.
-3 to 6 meters: you lose 1 HP.
-7 to 12 meters: you are reduced to 0 HP (save against death).
-13+ meters: death.
-Falling while secured by a rope and anchor point: height is based on lenght of the rope from the anchor point. The climber still take damage as above due to shock absorption. 1-in-6 chance that the anchor point will give away, 2-in-6 if climbing on ice or a particularly brittle material.
+* 2 meters or less: no damage.
+* 3 to 6 meters: you lose 1 HP.
+* 7 to 12 meters: you are reduced to 0 HP (save against death).
+* 13+ meters: death.
+- Falling while secured by a rope and anchor point: height is based on lenght of the rope from the anchor point. The climber still take damage as above due to shock absorption. 1-in-6 chance that the anchor point will give away, 2-in-6 if climbing on ice or a particularly brittle material.
+- Falling in water: under 20 meters no damage. Up to 30 meters, lose 1 HP. Beyond, save against Death. The depth of the water must be at least equal to half the height of the fall to not crush yourself at the bottom. 
 
-### Social
-Most social interactions are managed through simple roleplay. Characters try to use relevant levers to influence the people they are interacting with. Reputation, relationship history and trust are important factors. As with other actions, test Presence if necessary.
-
-### Oaths
-An oath may be taken by one or more persons at a time. They must declare:
-* In whose name they are taking the oath. 
-* What they promise to do.
-* The punishment for breaking the oath.
-
-#### Chances of success
-By default, an oath has a 2-in-6 chance of success:
-+1 if you touch a sacred object;
-+1 if you perform a sacrifice to seal it (this can be as simple as slashing your hand and spilling your blood to seal your word);
-+1 if the proposed punishment is particularly horrible.
-The more you increase the odds, the more seriously others will take your oath.
-#### Test
-The test is made in secret by the Referee, once per oath and per group.
-If unsuccessful, the oath is held only by honour.
-If successful, the oath is mixed with magic and breaking it results in the announced punishment, most often in the days that follow via a brutal «coincidence».
-The Referee decides whether or not the oath is broken, depending on the considerations of the deity, saint, lord or person (‘I swear the oath, on my mother’) in whose name the oath was made.
+### Drowning
+A character must save against Capture every minute, and drown in case of failure.
 
 # Encounters
 This section is written for the Referee.
@@ -193,9 +171,9 @@ If one side attacks or maneuvers, start Combat.
 ### Chase
 Compare the speeds of the two parties. Unless splitting apart, a party moves as fast as its slowest member.
 Substract the speed of the pursuers from the speed of the evaders. The fleeing party has as much chance in 6 to escape as the remaining speed. The chance to flee is modified by:
-+1 for dropping something of interest for pursuers (food, treasure...), if they care
-+1 for each obstacle used favoring the evaders (corners, traps, oil, caltrops, off-road trails...)
-If you fail, you are caught and the enemy can perform an action against you. You may flee again after if possible.
+* +1 for dropping something of interest for pursuers (food, treasure...), if they care
+* +1 for each obstacle used favoring the evaders (corners, traps, oil, caltrops, off-road trails...)
+* If you fail, you are caught and the enemy can perform an action against you. You may flee again after if possible.
 
 #### Dungeon
 The chance in 6 to escape is aIso the number of rooms the evaders can pass through before being caught on a failure, or the number of rooms they put between them and pursuers on a success.
