@@ -64,7 +64,7 @@ Your speed is equal to your Capture save. It is the number of spaces you can cov
 You swim and climb at half speed. Rough terrain also halve your speed. If your are Slow, halve your base speed. Minimum speed is 1.  
 #### Moving
 You can move up to your speed. You may pass through allies if there is enough space, but not enemies.  
-If you start the Opening phase outside of melee range, you may add 1d6 to your speed.  You may try to evade the combat (see Encounters, Chase).   
+If you start the Opening phase outside of melee range, you may move up to twice your speed.  You may try to evade the combat (see Encounters, Chase).   
 If you are in melee range, you can only move closer to the enemy unless you disengage and retreat.  
 To disengage and retreat from melee, you have to forgo all other actions this round and can move up to your speed away from the melee.   
 
@@ -156,9 +156,6 @@ If you manage to get close enough a target while they are unaware, and you can e
 
 An NPC at exactly 0 HP has 2-in-6 chance to survive, mutilated.
 
-
-
-
 ### Formal Duel
 As with rock-paper-scissors, duelists must simultaneously declare their technique for the round between Parry, Assault and Feint. The winner gets a bonus for the round.
 * Parry beats Assault : +2 armor
@@ -195,56 +192,42 @@ A fight lasts at least 10 minutes (1 exploration turn), the time it takes to fig
 ## Hit Points (HP)
 A damage is something that could kill someone. Each damage removes 1 HP. If you have more than 1 HP, you can survive things that would kill a lesser being. Damage is mostly cosmetic for a character until they lose all their HP, at which point their life is in danger.
 #### Save against death
-If a character’s HP is reduced to 0, they must make a save against death: if they fail, they die, otherwise they survive by rolling 1d20 on the Mutilation table and mark 1 Wound.
+If a character’s HP is reduced to 0, they must make a save against death: if they fail, they die, otherwise they survive by risking a permanent wound (see Wounds).
 
-If alive, the character can continue to act normally thanks to the adrenaline, but they are in critical condition.
+If alive, the character can continue to act normally thanks to adrenaline, but they are in critical condition.
 
 #### Critical condition
-The character dies at the end of 2 rounds following the one in which they entered the critical condition, unless stabilised. If they suffer further damage while at 0 HP, they die.
-#### First aid
-Finesse test (Very hard if you try on yourself). Success: patient stabilised. Failure: a turn spent for nothing. Multiple attempts possible, but only 1 per round.
-#### Stabilized
-The character is no longer dying, but still at 0 HP. If they suffer further damage while at 0 HP, they die.
-#### Death
-When your character dies, create a new one or take control of a hireling. They quickly join the party.
-#### Nemesis
-A creature that kills a PC immediately gains +1 Might (+1 HP, +1 attack).
-
+The character is bleeding out and dies at the end of 2 rounds following the one in which they entered the critical condition, unless stabilised. If they suffer further damage while at 0 HP, they die.
+* **First aid**: Finesse test (Very hard if you try on yourself). Success: patient stabilised. Failure: a turn spent for nothing. Multiple attempts possible, but only 1 per round.
+* **Stabilized**: The character is no longer dying, but still at 0 HP. If they suffer further damage while at 0 HP, they die.
+* **Death**: When your character dies, create a new one or take control of a hireling. They quickly join the party.
+* **Nemesis**: A creature that kills a PC immediately gains +1 Might (+1 HP, +1 attack).
 
 ## Wounds
-Each Wound is 1 load in the inventory and reduces your maximum HP by 1 until it is healed (1 week of rest).
+Wounds caused by critical hits are temporary and last until a week of full rest. 
 
-Before healing, a wound must be treated to prevent infection. Untreated wounds fester quickly. 
+If you must roll a Wound caused by saving against Death at 0 HP: roll 1d20. On 1-10, it's a temporary wound. On 11-20, it's a permanent wound (substract 10 to know which one on the Wound table). 
 
-#### Mutilation table
-1d20	Effect
-11-	You only lose skin and blood, gain a terrible scar (it still helps you attract more retainers)
-12	Lose an ear
-13	Rib crushed: can’t hold your breath for more than a few seconds, prolonged efforts difficult
-14	Throat crushed: can’t speak higher than a whisper
-15	Lose an eye
-16	Disfigured (nose cut off or torn off, missing piece of lip permanently reveals teeth, face partially destroyed, etc).
-17	Spinal damage: add 3 «pain» loads in your inventory. They never go away.
-18	Lose non-dominant hand
-19	Lose dominant hand
-20	Broken leg. Cannot walk without help until healed. Once healed, limp and can walk fast, but not fully run.
+Whatever the wound type, it fills one inventory slot until a week of full rest.
 
-Blessures : crits et mutilations
-Crits (1 au d12) : lancer 1d10
-Mutilation (save contre la mort) : lancer 1d20.
-Entrejambe. Crit : projeté à terre et incapable de se relever pendant 1 round. Mutilation : tu n'auras pas de descendance.
-Organes internes. Crit : projeté à terre. Tester contre les maladies 1x par jour jusqu'à guérison. Mutilation : tester 1x par semaine
-Côtes : impossible de retenir son souffle plus de quelques secondes, effort prolongé difficile
-Gorge : ne peut que murmurer, impossible de lancer des sorts.
-Oeil : pénalité pour tir
-Visage. Sur crit, 1d4. 1 : perte de 1d4 dents. 2 : nez brisé (il restera un peu de travers).  3 : grosse cicatrice très reconnaissable. 4 : perte d'une oreille. Mutilation : défiguré (surtout vers le nez et la bouche).
-Colonne : ajouter 3 blessures dans l'inventaire. Si mutilation, permanent.
-Main d'arme
-Main du bouclier
-Jambe : ne peut marcher sans aide, jusqu'à guérison. Si mutilation, ne pourra plus jamais courir.
-et plus. Enlever 10 pour connaître l'emplacement ; compte comme un crit plutôt qu'une mutilation.
+If you would get twice the same wound, instead you lose some non-essential bits of yourself (an ear, a finger, a toe, the tip of the nose, teeth, bit of lips, big scar on the face or the skull where hair won't regrow, etc).
 
-Mutilation : effet permanent mais n'encombre plus l'inventaire après guérison. 
+If an enemy should suffer a Wound not suitable for an NPC (e.g. -1 to tests of characteristic): characters have +1 chance to hit an enemy for each such Wound they have. 
+
+For each permanent wound you have, you can attract an additional retainer. 
+
+| 1d10 | Wound |
+|-----|-------|
+| 1 | Shoulder: -1 to bashing chance|
+| 2| Arm: -2 to grapple results|
+|3| Knee: -2 movement spaces (also apply as penalty in Capture for chases)|
+|4| Leg: -1 chance to succeed tests of Agility|
+|5| Guts: -1 chance to succeed tests of Vigor|
+|6| Head: -1 chance to succeed tests of Finesse|
+|7| Back: fills one inventory slot (in addition to the one of the Wound itself until healed) |
+|8| Chest: -1 to Saves|
+|9| Eye: -1 chance to hit with ranged attacks|
+|10| Hand: you cannot use this hand for anything|
 
 ### Recovery
 1 HP per full day of rest
