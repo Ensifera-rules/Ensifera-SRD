@@ -92,6 +92,13 @@ Normal: not faster, but you don’t tire as much.
 Fast: +1 speed. The mount suffers 1d3 Fatigues.
 To death: +2 speed. Roll 1d6 per turn: the horse  suffers as much Fatigues and dies on 5-6. After the ride, roll another d6: on 5-6, the horse goes lame.
 
+### Escape and chase
+#### Wilderness
+A failure indicates evaders are caught within the same day turn, and a success that they put 1 day turn between them and pursuers. Either way, evaders are likely to get lost.
+If pursuers can’t track them (4-in-6 they can), it ends the pursuit; if pursuers can track them and are willing to continue, they do but can’t catch the evaders unless the evaders loose their 1 turn of advance.
+Ongoing pursuit
+Creatures are likely to pursue for as many navigation decisions/turns as the Might of their strongest individual. 
+
 
 # Conditions 
 
