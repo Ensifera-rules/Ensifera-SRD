@@ -49,7 +49,7 @@ A character starts at Level 1 with 2 HP, 1 attack, and 0 Mana.
 
 There are three starting Traits. Choose one:
 * **Berserker**. Invoke holy furor to gain +1 ATK per round until end of fight. You automatically pass death saves from injuries while in this state (mutilations still apply). You can’t do something else than trying to kill all enemies until it’s done. Save against Capture after 10 minutes or lose this ability for the day.
-* **Silent**. While stealthy, you don't risk noise -even when trying to kill someone, walking on dry leaves or similar activity.
+* **Silent**. While stealthy, you don't risk noise -even when trying to kill someone, walking on dry leaves or similar activity. When you roll for surprise alone, the other side has 4-in-6 chance to be surprised instead of the normal 2-in-6.
 * **Malefica(r)**. Each time you gain a level, gain 1 random spell. You start the game with 1 HP instead of 2, but you also have 1 Mana and two random spells.
 
 ---
@@ -70,12 +70,15 @@ To improve your Characteristics, see Downtime.
 # Resolution
 Always round down unless specified otherwise.
 
-### X-in-6 chance
-Roll a d6, if you roll the number or lower it happens. 
+### X-in-Y chance
+Roll a dY, if you roll X or lower it happens. 
 If the Referee is unsure and has no random table for it, they decide how many chances out of 6 there are that the thing will happen.  2-in-6 is a good chance for most things. 
 
 ## Tests
-If discussion does not offer an obvious resolution, you may roll a d12. You must roll 4 or less to succeed. If the suitable characteristic is at least 13, you succeed on 5 or less. If it is at least 16, you succeed on 6 or less. I you have the relevant skill, add 2 to your chances of success.
+If discussion does not offer an obvious resolution, you may roll a d12. You must roll 4 or less to succeed.
+* If the suitable characteristic is at least 13, you succeed on 5 or less.
+* If it is at least 16, you succeed on 6 or less.
+* If you have the relevant skill, add 2 to your chances of success.
 
 Easy or extreme actions pass or fail automatically. Advantages either change the stakes in your favor or grant you automatic success.
 ### Stakes
