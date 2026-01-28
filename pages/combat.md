@@ -100,9 +100,6 @@ Failing a ranged attack with a 10+ result hits an ally engaged in melee with the
 * Disarmed: -1 chance to hit. Others have +1 ATK against you.
 * Advantage (e.g. high ground): +1 chance to hit.
 
-#### Range
-
-
 ### Ranged attacks
 You can’t make ranged attacks once you are in melee range.
 Your ammo must be Readied.

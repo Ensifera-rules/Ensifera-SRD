@@ -4,6 +4,32 @@ title: Magic
 permalink: /magic/
 ---
 
+You can prepare as many spells as your Mana, but only one spell per night. Each spell can be cast once, then it needs to be prepared again. If you own twice or more the same spell, each multiple is treated as a separate, individual spell.
+* If you wear a witch hat (1 load), you can prepare as many spells as your Mana +1.
+
+There is no limit to the number of spells you can own. To own new spells, you must rely on the Maleficar trait or find them in adventure or through teachers or the skulls of dead mages.
+* If you focus near the skull of a freshly dead mage, you have 2-in-6 chance per spell they had to steal the spell before it vanishes in the wild.
+
+Currently everything else for the magic system and spells is based [on this post from Press the Beast](https://pressthebeast.bearblog.dev/nathequest-2026-normal-spell-system-new-new-new/). 
+
+From Pressthebeast:
+> Spells are either instantaneous or last for 10 minutes per caster Mana unless otherwise mentioned. They may effect any valid targets the caster can clearly see.
+> Some spells require sigils. These can be drawn in 10 minutes, and allow the spell to last indefinitely. Sigils can be carved, drawn with chalk, ink, blood, etc. If erased or destroyed, the spell will falter. Once a sigil is drawn, that spell cannot be recovered unless the sorcerer ends the spell which may be done psychically at any time.
+
+Conversion from the blog post:
+* Caster level = caster Mana
+* 1d6 damage = 1 damage
+
+
+From Pressthebeast:
+> Spells are either instantaneous or last for 10 minutes per caster Mana unless otherwise mentioned. They may effect any valid targets the caster can clearly see.
+> Some spells require sigils. These can be drawn in 10 minutes, and allow the spell to last indefinitely. Sigils can be carved, drawn with chalk, ink, blood, etc. If erased or destroyed, the spell will falter. Once a sigil is drawn, that spell cannot be recovered unless the sorcerer ends the spell which may be done psychically at any time.
+
+//
+
+* 
+
+
 Definitions
 Magic is secret nature.
 The practice of magic consists in extracting patterns of influence (spirits) from this nature in the form of spells.
