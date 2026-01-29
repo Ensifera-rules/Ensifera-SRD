@@ -17,3 +17,9 @@ Le groupe qui a le plus à craindre subit un malus de 2 au moral. Noter score de
 9 rat géant
 10 gargouille, scorpion, stirge
 Classique : berserkers, minotaures, hommes-lézards, limons et morts-vivants ne font jamais de test de moral.
+
+
+Augmenter chances de toucher des créatures tous les 3 points de Might. 
+1-3 : base 8
+4-6 : 9
+7-+ : 10

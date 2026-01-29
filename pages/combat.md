@@ -68,93 +68,93 @@ If you start the Opening phase outside of melee range, you may move up to twice 
 If you are in melee range, you can only move closer to the enemy unless you disengage and retreat.  
 To disengage and retreat from melee, you have to forgo all other actions this round and can move up to your speed away from the melee.   
 
+## Attacks
+
 ### Melee attacks
 
 1. You must allocate your attacks as equally as possible between targets within reach. Then proceed in order for each target:
-2. Deduct the target’s Armor value from your Combat stat to obtain the chance to hit per attack die.
+2. The chance to hit per attack die is 8 minus target armor. Apply any other modifiers.
 3. Roll 1d12 per attack and count successes. A result of 12 is always an automatic failure.
 4. Each successful attack inflicts 1 damage.  
 
 The Referee rolls attacks for the enemies, PCs for themselves and their allies.  
 
-Attacks are simultaneous unless one side has:
+Attacks are simultaneous unless one side:
 * Charged this round
-* Surprise
-* Attack on the flank
+* Attacks with Surprise
+* Attacks on the flank
 
-In this case, the side with advantage has First Strike. Your attacks are resolved first in the melee phase, and enemies you kill are eliminated immediately, before the end of the phase (they lose their action and can’t strike back).
+In this case, the side with advantage has First Strike: your attacks are resolved first in the melee phase, and enemies you kill are eliminated immediately, before the end of the phase (they lose their action and can’t strike back).
 
 * You can forgo all your attacks in the melee phase to gain +1 armor.
 * You can forgo your attacks to attempt a grappling or other maneuver. Bash, push, etc
 
-|   | None | Shield | Light | Light+ | Medium | Medium+ | Heavy | Heavy+ |
-|---|------|--------|-------|--------|--------|---------|-------|--------|
-|Melee | 8 | 7 | 7 | 6 | 6 | 5 | 5 | 4 |
-|Ranged | 7 | 5 | 6 | 4 | 4 | 2 | 3 | 1 |
-
-_Melee: 8-armor_  
-_Ranged: 7/6/4/3, shield substracts 2_  
-Failing a ranged attack with a 10+ result hits an ally engaged in melee with the target instead.
-
 #### Modifiers
-* Surprise: first strike, +1 chance to hit
-* Flanking: first strike, +1 chance to hit
-* Death Blow: you can attack a prone enemy only if there is no standing enemy within reach. Your attacks hit automatically.
-* Prone: you are vulnerable to death blows. You can attack from the ground, but only up to 1 ATK and you have -1 chance to hit. You cannot get back up the same round you got prone.
-* Improvised weapon: -1 chance to hit.
-* Disarmed: -1 chance to hit. Others have +1 ATK against you.
-* Advantage (e.g. high ground): +1 chance to hit.
-
-### Typical Modifiers
-#### Advantage
-+2 Combat, e.g. high ground, target prone, target attacked from behind, etc.
-#### Mounted
-NPCs get +1 Might (+1 HP, +1 attack). PCs get +1 attack and can choose to sacrifice the mount to absorb 1 damage for them.
-#### Improvised weapon
-Target armor is deducted twice from your Combat stat. 
-#### Unarmed
-As improvised weapon, and enemies have +2 Combat against you.
-#### Narrow surroundings
-Fighting in the doorway, for example, could reduce the number of attacks that fighters can make, as well as the number of fighters who can attack.
-#### Blinded
-Unable to attack.
-#### Prone
-Enemies have +2 Combat against you. Getting up costs half your speed. Adjacent opponents may try to prevent you from getting up if they have priority. You cannot get back up in the same round in which you were knocked down.
+* **Surprise**: first strike, +1 chance to hit
+* **Flanking**: first strike, +1 chance to hit
+* **Death Blow**: you can attack a prone enemy only if there is no standing enemy within your reach. Your attacks hit automatically.
+* **Prone**: you are vulnerable to death blows. You can attack from the ground, but only up to 1 ATK and you have -1 chance to hit. You cannot get back up the same round you got prone. Adjacent opponents may try to prevent you from getting up if they have priority. Getting back up uses 2 of your movement. If enemies control the space where you need to get up, you need to use grappling to push them ?
+* **Improvised weapon**: -1 chance to hit.
+* **Disarmed**: -1 chance to hit. Others have +1 ATK against you.
+* **Advantage** (e.g. high ground): +1 chance to hit.
+* **Narrow surroundings**: fighting in the doorway, for example, could reduce the number of attacks that fighters can make, as well as the number of fighters who can attack.
+* **Blinded**: unable to attack.
+* **Mounted**: NPCs get +1 Might (+1 HP, +1 attack). PCs get +1 attack and can choose to sacrifice the mount to absorb 1 damage for them.
 
 ### Ranged attacks
-You can’t make ranged attacks once you are in melee range.  
-Your ammo must be Readied.  
-Resolve as for Melee, but if you have multiple attacks, you must allocate all your attacks to the same target.  
+You can only make one ranged attack per round, unless specified otherwise by the weapon or an ability.
+* You must be out of melee range and your ammo must be Readied (in hand or belt) ?
+* Unless you use a bow, you must allocate attacks to the same target.  
+* If you don't aim for the nearest target, you have -1 chance to hit. If there is several ranks of enemies and you don't shoot from high ground, you can only aim up to the second rank, others are screened by the ranks in front of them.
+
+Throw
+* Each time you throw a weapon, deplete it. 
+* You cannot chain ranged and melee attacks unless you have a throwing weapon in one hand and a melee weapon in the other.  
+* If you have a throwing weapon, you can throw it while charging (handaxe, javelin).   
+
 #### Target with shield  
-Unless you use a javelin or crossbow, or shoot them from a good angle, you deduct twice the Armor of your target from your Combat stat.  
+Against ranged attacks, a shield is worth 3 armor instead of 1. 
 #### Target engaged in melee  
 The closest ally is hit instead if you get a 10+, they take 1 damage.   
-* Ranged attacks against incoming charge: 3-in-6 chance for the side to shoot before contact, otherwise the charge connects before the volley.  
-* You cannot chain ranged and melee attacks unless you have a throwing weapon in one hand and a melee weapon in the other.  
-* If you have a light throwing weapon, you can throw it while charging (francisque, javelin).   
 
 ### Criticals
 Crits apply both to PCs and NPCs. Critical hits do not affect creatures with Supernatural HP.
-A result of 1 on an attack die is a Critical. It deals 1 damage as normal but add also 1 Wound in the inventory.
-Roll 1d10+10 on the Mutilation table: the Wound is a temporary version of the result. The targeted area is incapacitated until the wound is treated and the wounded rests for a full day. 
-You can sacrifice your helmet to cancel a Critical.
-Push
-Once per series of attacks, you can choose to reroll one failed die. If the new result is a success, you deplete your weapon. If the new result is a failure, you deplete twice your weapon. If the weapon should break, it does after the attacks are resolved.
+A result of 1 on an attack die is a Critical. It deals 1 damage and a Wound.  
+* If you wear a helmet, you can sacrifice it to cancel the Wound or the damage, but not both, and you must do so before the Wound is rolled. 
 
-### Grappling
+### Attacking to subdue
+Declare before attacks. -1 chance to hit. If you reduce the target to exactly 0 HP (no excessive damage), you subdue them. Otherwise they die as usual.
+
+### Grappling / Movement ?
 You can attempt a gambit instead of any other action, but only once per round.  
 This is how you resolve combat maneuvers such as disarming, tripping, pushing, grappling, subduing an enemy, etc.  
 You describe the effect you wish to achieve, and the Referee gives you the odds of success on 1d6, taking into account the difference in size, level, capability and circumstances. Typically 2-in-6 if inferior, 3-in-6 if equal and 4-in-6 if superior.   
 The risks involved in case of failure are proportional to the desired effect unless you can secure an advantage before.  
 Several characters can join forces for a single gambit. Enemies can also attempt gambits.  
 
+_Based on Meatheads:_
+Grapplers roll as many d6 as their number of attacks against one another, with the highest total controlling the grapple.
+
+If winning a grapple, record the result. Controlling the grapple means you can pin them, throw them, etc. Grappled foes break out by attempting to roll higher than the result that initially beat them. Each round grappled foes must check Morale. Additionally, you may use your full round to tighten the grip and deal 1 damage, +1 per previous round doing this. Or you can attack them while they can only try to defend themselves. 
+
+If you fail to grapple your opponent, you must choose:
+* The attacks of the foe allocated to you hit automatically;
+* Be restrained, they gain control of the grapple;
+* Be thrown to the ground and receive a temporary Wound.
+
+Daggers can be used to attack during grapple.
+
+When you charge, you can give up your First Strike to attempt a grapple instead (it doesn't work against spears). Otherwise moving eats your action en prevents a grapple. 
+
+To fighters not in the grapple, you are both treated as prone and can suffer deathblows. ?
+
+Several people can join force in a grapple against the same target, add up together all their d6 (as many as their attacks). 
+
 ### Vanquish
 An NPC who reaches 0 HP is slain at the end of the current phase. They can still act in this phase (simultaneous action).   
 Hits are opportunistic and aim for the highest lethality. If you want to shoot them in the eye, it’s just a normal attack and unless you reduce them to 0 HP, you don’t achieve this outcome.  
-Vulnerable target  
+#### Vulnerable target  
 If you manage to get close enough a target while they are unaware, and you can ensure a killing blow (mitigate armor, size, etc), the victim is slain instantly. Otherwise, you automatically deal 1 damage for each of your attacks (special resistances still apply).  
-
-An NPC at exactly 0 HP has 2-in-6 chance to survive, mutilated.
 
 ### Formal Duel
 As with rock-paper-scissors, duelists must simultaneously declare their technique for the round between Parry, Assault and Feint. The winner gets a bonus for the round.
@@ -165,7 +165,7 @@ As with rock-paper-scissors, duelists must simultaneously declare their techniqu
 
 Exceptionally, during a duel, NPCs can sunder their shield as a PC would.
 
-### Morale
+## Morale
 PCs never test Morale, but most NPCs do, allies and enemies. Unless they are exceptionally disciplined, insensitive or fanatical, they must check morale when facing a trigger.  
 Common morale triggers include:
 * Loss of one-third numerical strength
@@ -198,7 +198,7 @@ If alive, the character can continue to act normally thanks to adrenaline, but t
 
 #### Critical condition
 The character is bleeding out and dies at the end of 2 rounds following the one in which they entered the critical condition, unless stabilised. If they suffer further damage while at 0 HP, they die.
-* **First aid**: Finesse test (Very hard if you try on yourself). Success: patient stabilised. Failure: a turn spent for nothing. Multiple attempts possible, but only 1 per round.
+* **First aid**: Finesse test (Very hard if you try on yourself). Success: patient stabilised. Failure: a turn spent for nothing. Multiple attempts possible, but only 1 per round. Deplete bandages to reduce difficulty (auto success if you help someone else, normal test if you try on yourself). 
 * **Stabilized**: The character is no longer dying, but still at 0 HP. If they suffer further damage while at 0 HP, they die.
 * **Death**: When your character dies, create a new one or take control of a hireling. They quickly join the party.
 * **Nemesis**: A creature that kills a PC immediately gains +1 Might (+1 HP, +1 attack).
@@ -230,15 +230,12 @@ For each permanent wound you have, you can attract an additional retainer.
 |10| Hand: you cannot use this hand for anything|
 
 ### Recovery
-1 HP per full day of rest
-All HP after a week of downtime (if not restricted by a Wound)
-1 Wound per week of downtime
+* 1 HP per full day of rest
+* All HP after a week of downtime
+* 1 Wound per week of full rest
 
 
 # Battles
-
-You are in melee at 1 space.
-* Move figures closer at the beginning of melee, so that their bases touch
 
 ### Units
 * A Figure is an individual fighter. Figures mainly move together as Ranks in Units.    Player Characters, leaders and creatures differing strongly from their rank are Unique figures.  
@@ -249,7 +246,7 @@ If you want a rank to be larger than 5,  instead start an adjacent rank as a new
 One light source is typically enough for 1 rank (it doesn’t allow close inspection).  
 
 ### Battle Lines
-A Battle Line is formed when two Units meet and the front Ranks clash in melee.
+A Battle Line is formed when two Units meet and the front Ranks clash in melee. Move figures closer at the beginning of melee, so that their bases touch.
 #### Reach
 As long as there is at least 1 figure in a rank, you can’t directly attack the rank behind it.
 
@@ -266,7 +263,8 @@ For each agent, resolve the attacks targeting Unique figures first. Then resolve
 
 Damage from attacks targeting normal figures is not allocated target by target, but directly to the rank as a whole. Each time the rank suffer as much damage as the HP of one of its figures, remove one figure from it and consolidate the rank toward the middle.
 
-If a rank is destroyed with excess damage, the excess is dealt to the rank behind it.
+If a rank is destroyed with excess damage, the excess is dealt to the rank behind it, even if it has better armor. _The corpse falls on the next rank, opening up vulnerabilities._ 
+* This method is faster, but if you want, you can compare individually whether attacks with excessive damage would really hit the armor of the next rank.
 
 #### Resolution order, melee phase
 * First strike attacks, remove the dead
@@ -299,7 +297,7 @@ If you reach a critical mass proportional to the target, double the effective ra
 ### Movement
 Movement mostly takes place at the Unit scale, but you may scale down to Ranks or figures according to circumstances. 
 
-Cycling between ranks: swapping places with a figure from another rank takes 1 movement action for each (coordination).
+Cycling between ranks in close formation: swapping places with a figure from another rank takes 1 movement action for each (coordination). They must be adjacent and  make a Capture Save. If one fails, both lose their remaining action for the round but they can swap places. If both fail, both lose their remaning actions for the round and they can't swap places. ~~If one fails while in melee, he suffers +1 ATK from enemies.~~
 
 If you move over an obstacle or difficult terrain, you may have to test Agility.
 

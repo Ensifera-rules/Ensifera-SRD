@@ -3,6 +3,17 @@ layout: page
 title: Downtime
 permalink: /downtime/
 ---
+Upkeep : level * 2. 
+
+Carousing
+
+Training : prix pour 1 tentative par semaine. Lancer d20, si supérieur à la stat ajouter 1 dans la stat. Peuvent monter au-delà de 18
+Avec assez de prix, bonus au test. Nécessite un bon professeur. 
+
+Possible d'apprendre de nouvelles skills mais prix et temps élevés. X-in-6, augmenter à chaque tentative d'apprentissage. 
+
+
+
 
 Camp (1 day turn)
 After 2 day turns of activity, you need to rest for 1 day turn. If you don’t, until you rest you get 1 fatigue at the start of each day turn.

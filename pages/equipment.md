@@ -4,12 +4,12 @@ title: Equipment
 permalink: /equipment/
 ---
 
+# Hirelings
+
 <details markdown="1">
-<summary><b>Characters</b></summary>
+<summary><b>Hirelings</b></summary>
 Recruiting hirelings is a downtime action and is always possible unless players have a bad reputation or the settlement is in crisis.
 The group must feed and equip the hirelings. Any money given to them disappears, either spent or sent to their families. 
-
-# Hirelings
 
 #### Level 0
 All hirelings start at level 0. Only Retainers can progress.  
@@ -36,6 +36,10 @@ Loyalty is kept with fair rewards and glory. Good or bad treatment can have a la
 Retainers take a half-share of loot.  
 * Retainers need 50 xp to reach level 1, at which they gain +1 HP (So 2 HP, 1 ATK, 0 Mana, as a starting character).
 * Retainers can go up to level 3.
+
+### Group size
+On the overworld, the group can advance with an army if it wishes. In the underworld, it is reasonable to limit the size of the group to 8-12, including retainers.
+
 </details>
 
 ---
@@ -44,11 +48,9 @@ Retainers take a half-share of loot.
 
 ## Inventory
 ### Carrying capacity
-A character can carry up to 1 item per hand + 8 loads while retaining good capacity for action in the perils of adventure.
-A PC who is carrying more is Overloaded. 
-* You have in quick access what is in your hand, and 1 load more at your belt
-* You have 4 loads ready in one action
-* Everything else is Dead Weight. 1 Dead Weight for the first load, and every 2 loads after that. If you should have more than 3 Dead Weight, you are Overloaded. You cannot have more than 6 Dead Weight. Dead Weight is substracted from your Capture save. 
+* You have in quick access (Readied) what is in your hands, and 1 load more at your belt
+* You have 4 more loads ready in one action (Worn)
+* Everything else is Dead Weight (Packed, 2 actions to recover item). 1 Dead Weight for the first load, and every 2 loads after that. If you should have more than 3 Dead Weight, you are Overloaded. You cannot have more than 6 Dead Weight. Dead Weight is substracted from your Capture save. 
 
 ### Overload
 * You cannot run or be stealthy;
@@ -141,6 +143,7 @@ Basic
 |Big simple tool (shovel...)|	2|
 |Grease bag|	1|
 |Cooking pot|	1|
+
 </details>
 
 <details markdown="1">
@@ -163,6 +166,7 @@ Common
 |Quiver or 1 load of ammo	|1|
 |Specialized tool|	Variable|
 |Sheep / pig	||
+
 </details>
 
 <details markdown="1">
@@ -179,16 +183,8 @@ Precious
 |Lockpicks	|1|
 |Tent	|2|
 |Cow (good)	||
-</details>
 
-Notes
-Ration: enough to feed one person for a day. Exhausted in the evening at camp. 
-Torch: lasts 1 hour. Will not go out if dropped or shaken. Smoky. Consumes a lot of oxygen.
-Candles: put in a lantern. Lasts 2 hours. Superior quality for light depletion. Easily extinguished. Suitable for use in confined spaces. 
-Lantern: a frame in treated, translucent animal horn, or pierced metal. Protects the candle flame and makes it easier to carry. 
-Tent: a tent made of tallow-treated goatskin, set up with a stick, string and stakes. Allows the group to sleep relatively sheltered from the cold, wind and humidity, but very tightly packed. Sleep on the ground, using your coat as a blanket and straw as a mattress.
-Bandages: deplete once to administer first aid or treat a wound with automatic success.
-Pitons: short metal stakes with a loop on one side for passing a rope through. You can use them as spikes to wedge a door shut.
+</details>
 
 <details markdown="1">
 <summary><b>Weapons & Armor</b></summary>
@@ -200,17 +196,17 @@ Weapons
 |-----|------|------|---------|
 |Dagger	|5	|1	| Instant draw as long as it is not packed in Dead Weight.
 |Spear	|5	|2	| Can attack from one rank behind an ally but max 1 attack per round. Grants simultaneous attack resolution against a frontal charge. +1 melee attack if used with both hands.  |
-|Battle axe	|5	|1	| successful attacks with a result of 1-2 deal +1 damage. |
-|Long axe ‡	|10	|2	|Melee Combat +1 and +1 melee attack.|
-|Sword	|10	|1	|First Strike.|
-|Longsword ‡	|20	|2	|First Strike and +1 melee attack. |
+|Battle axe	|5	|1	| Successful attacks with a result of 1-2 deal +1 damage. |
+|Long axe ‡	|10	|2	| +1 ATK. And successful attacks with a result of 1-2 deal +1 damage. |
+|Sword	|10	|1	|+1 ATK if you have priority. |
+|Longsword ‡	|20	|2	| +1 ATK. And +1 ATK if you have priority. |
 |Halberd ‡	|10	|2	| Enemy armor is always treated as 2. |
-|Francisque	|5 |1	| +1 ATK when thrown. |
+|Handaxe	|5 |1	| +1 ATK when thrown. |
 |Sling 	|1	|P	|Can launch grenades and potions. |
-|Javelin	|5	|1	| Use Melee hit chances.|
+|Javelin	|5	|1	| Cancel shield bonus against ranged attacks.|
 |Shortbow ‡|	5	|1	|Can shoot in confined spaces and/or from cover.|
 |Longbow ‡	|10	|2	|+1 ranged attack. |
-|Crossbow ‡	|40	|2	| Use Melee hit chances. +1 hit chance per round spent aiming. Reloading takes a whole round. Can shoot in confined spaces and/or from cover.|
+|Crossbow ‡	|40	|2	| Treat target armor as 0 for the shot. +1 hit chance per round spent aiming. Reloading takes a whole round. Can shoot in confined spaces and/or from cover.|
 
 Two-handed (‡): attacking requires two hands.
 First Strike: if you have priority, foes you kill are slain before they can strike back.
