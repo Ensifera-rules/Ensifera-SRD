@@ -45,7 +45,8 @@ On the overworld, the group can advance with an army if it wishes. In the underw
 ---
 
 # Equipment
-
+<details markdown="1">
+<summary><b>Equipment</b></summary>
 ## Inventory
 ### Carrying capacity
 * You have in quick access (Readied) what is in your hands, and 1 load more at your belt
@@ -120,6 +121,7 @@ Purchase and resale prices may vary according to location and circumstances.
 ### Repair
 Depleted but not broken items are automatically repaired for free in Downtime as part of the upkeep cost.
 Broken items you carried home can be repaired: it costs as much as one price category lower than the original price of the item.
+</details>
 
 ## Items
 <details markdown="1">
@@ -193,7 +195,7 @@ Weapons
 
 |Item|	Price|	Load|	Traits|
 |-----|------|------|---------|
-| Unarmed ↔| | | -1 chance to hit. Enemies have +1 ATK against you. |
+|Unarmed ↔| | | -1 chance to hit. Enemies have +1 ATK against you. |
 | Improvised| | | -1 chance to hit. May be ↔ or ‡|
 |Dagger	↔|5	|1	| Instant draw as long as it is not packed in Dead Weight. 
 |Spear	|5	|2	| Can attack from one rank behind an ally but max 1 attack per round. Grants simultaneous attack resolution against a frontal charge. Can be used with one or two hands, gain +1 ATK with two hands. |
@@ -203,7 +205,7 @@ Weapons
 |Long axe ‡	|10	|2	| +1 ATK. And successful attacks with a result of 1-2 deal +1 damage. |
 |Shortsword	|10	|1	| +1 ATK if you have priority. |
 |Arming sword	|20	|1	| +1 armor if you have priority. Can be used with one or two hands, gain +1 ATK with two hands.|
-|Greatsword ‡	|30	|2	| +1 ATK. Deal +1 damage on a critical. If you have priority, treat target armor as 1. |
+|Greatsword ‡|30	|2	| +1 ATK. Deal +1 damage on a critical. If you have priority, treat target armor as 1. |
 |Sling 	|1	|P	|Can launch grenades and potions. |
 |Javelin	|5	|1	| When thrown, cancel shield bonus against ranged attacks.|
 |Shortbow ‡|	5	|1	|Can shoot in confined spaces and/or from cover.|
@@ -211,6 +213,7 @@ Weapons
 |Crossbow ‡	|20	|2	| Treat target armor as 0 for the shot. +1 hit chance per round spent aiming. Reloading takes a whole round. Can shoot in confined spaces and/or from cover.|
 
 Two-handed (‡): attacking requires two hands.
+
 Small (↔): Can be used in grapple. Limited to 1 attack per round unless against a similarly short weapon or used in grapple. 
 
 Armor
@@ -227,12 +230,13 @@ Each rank of armor stacks with the others for total Armor value, price and load.
 A full armor set without shield is 6 load, Armor 3, for a total of 320 silver.
 
 #### Helmet
-+2 in your Death Save against injuries. Sacrifice your helmet to cancel the Wound or damage of a critical, but not both, and only before the Wound is rolled.
++2 in your Death Save against fatal injuries (0 HP). You can also sacrifice your helmet to cancel the Wound or damage of a critical, but not both, and only before the Wound is rolled.
 
 #### Shield
 Wielding a shield, you have +1 Armor and:
-* Cover. Your total Armor counts double against frontal ranged attacks.
+* Cover. Against ranged attacks, a shield is worth 3 armor instead of 1.
 * Sundering. When attacks are declared, but before they are resolved, you can sacrifice your shield. This cancels 1 damage if you’re hit. You sacrifice your shield even if no attack hits you (you over-block strikes that aren’t as threatening as you thought).  
+
 Except during a duel, only player characters can sunder their shields.  
 
 Loot. Shields from defeated fighters have a 2-in-6 chance of not being broken.   
