@@ -191,29 +191,29 @@ Precious
 
 Weapons
 
-
 |Item|	Price|	Load|	Traits|
 |-----|------|------|---------|
-|Dagger	|5	|1	| Instant draw as long as it is not packed in Dead Weight.
-|Spear	|5	|2	| Can attack from one rank behind an ally but max 1 attack per round. Grants simultaneous attack resolution against a frontal charge. +1 melee attack if used with both hands.  |
+| Unarmed ↔| | | -1 chance to hit. Enemies have +1 ATK against you. |
+| Improvised| | | -1 chance to hit. May be ↔ or ‡|
+|Dagger	↔|5	|1	| Instant draw as long as it is not packed in Dead Weight. 
+|Spear	|5	|2	| Can attack from one rank behind an ally but max 1 attack per round. Grants simultaneous attack resolution against a frontal charge. Can be used with one or two hands, gain +1 ATK with two hands. |
+|Halberd ‡	|10	|2	| Enemy armor is always treated as 2. |
+|Handaxe ↔	|5 |1	| +1 ATK when thrown. |
 |Battle axe	|5	|1	| Successful attacks with a result of 1-2 deal +1 damage. |
 |Long axe ‡	|10	|2	| +1 ATK. And successful attacks with a result of 1-2 deal +1 damage. |
-|Sword	|10	|1	|+1 ATK if you have priority. |
-|Longsword ‡	|20	|2	| +1 ATK. And +1 ATK if you have priority. |
-|Halberd ‡	|10	|2	| Enemy armor is always treated as 2. |
-|Handaxe	|5 |1	| +1 ATK when thrown. |
+|Shortsword	|10	|1	| +1 ATK if you have priority. |
+|Arming sword	|20	|1	| +1 armor if you have priority. Can be used with one or two hands, gain +1 ATK with two hands.|
+|Greatsword ‡	|30	|2	| +1 ATK. Deal +1 damage on a critical. If you have priority, treat target armor as 1. |
 |Sling 	|1	|P	|Can launch grenades and potions. |
-|Javelin	|5	|1	| Cancel shield bonus against ranged attacks.|
+|Javelin	|5	|1	| When thrown, cancel shield bonus against ranged attacks.|
 |Shortbow ‡|	5	|1	|Can shoot in confined spaces and/or from cover.|
-|Longbow ‡	|10	|2	|+1 ranged attack. |
-|Crossbow ‡	|40	|2	| Treat target armor as 0 for the shot. +1 hit chance per round spent aiming. Reloading takes a whole round. Can shoot in confined spaces and/or from cover.|
+|Longbow ‡	|10	|2	|+1 ATK. |
+|Crossbow ‡	|20	|2	| Treat target armor as 0 for the shot. +1 hit chance per round spent aiming. Reloading takes a whole round. Can shoot in confined spaces and/or from cover.|
 
 Two-handed (‡): attacking requires two hands.
-First Strike: if you have priority, foes you kill are slain before they can strike back.
-Silver weapon: Four times the price. Breaks after a single depletion or a roll of 12 if used against foes not vulnerable to silver. Can kill ghosts, demons and the like.
+Small (↔): Can be used in grapple. Limited to 1 attack per round unless against a similarly short weapon or used in grapple. 
 
 Armor
-
 
 |Type	|Armor|	Price	|Load|	Swim|
 |-------|-----|---------|-----|------|
@@ -227,7 +227,7 @@ Each rank of armor stacks with the others for total Armor value, price and load.
 A full armor set without shield is 6 load, Armor 3, for a total of 320 silver.
 
 #### Helmet
-+2 in your Death Save against injuries.
++2 in your Death Save against injuries. Sacrifice your helmet to cancel the Wound or damage of a critical, but not both, and only before the Wound is rolled.
 
 #### Shield
 Wielding a shield, you have +1 Armor and:
